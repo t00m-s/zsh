@@ -1,6 +1,7 @@
 alias cat=bat
 alias rcat='\cat'
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export EDITOR=nvim
 v() {
   if [[ -n "$1" ]]; then
     nvim "$1"
